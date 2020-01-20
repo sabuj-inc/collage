@@ -1,0 +1,583 @@
+*{padding:0px;margin:0px;}
+body{background:#fdfaf6;font-size:20px;font-family:sans-serif}
+.header
+{
+	width: 100%;
+    background: #f1f9fb;
+    overflow: hidden;
+    padding:4px 0px 0px 0px;
+    height: 45px;
+	
+}
+#manuControl
+{	
+	float: left;
+    margin-left: 1%;
+}
+#MainManuIcon
+{
+	width: 19px;
+background: #4f4fd2;
+padding: 5px 13px;
+color: #f8cece;
+border-radius: 4px;
+cursor: pointer;
+}
+#MainManuContant
+{
+	width: 224px;
+position: absolute;
+background: #ece0e0b3;
+top: 48px;
+left: 1px;
+border-right: 2px solid gray;
+display:none;
+z-index:1;
+}
+
+.fixtOption ul li {
+	list-style: none;
+	padding: 8px 0px 8px 2px;
+	background: #efefef;
+
+	cursor: pointer;
+	font-size: 14px;
+	color: #5f5555;
+}
+.fixtOption ul li a
+{
+text-decoration: none;
+
+
+}
+.fixtOption ul li:hover
+
+{
+	background:#eadede;
+}
+.pinManu
+{
+	position: absolute;
+    top: 5px;
+    right: 0px;
+    background: #debfff;
+    padding: 5px 0px;
+    border-radius: 6px 0px 0px 6px;
+}
+.subscribe_downText
+{
+	background: #da1a1a;
+    padding: 5px 0px 5px 2px;
+    font-size: 17px;
+    color: #ffe6e6;
+}
+#subscribe img
+{
+	width: 45px;
+	height: 35px;
+	float: left;
+	padding-right: 5px;
+}
+
+.subscriberLink{
+	cursor:pointer;
+	float: left;
+margin-top: 1px;
+width: 100%;
+}
+
+.ResponControl
+{
+	background: #d8e9ed;
+	position: absolute;
+	top: 3px;
+	left: 0%;
+	padding: 7px 3px 7px 2px;
+	border-radius: 0px 7px 5px 0px;
+	cursor: pointer;
+	color: #a25a5a;
+	display:none;
+}
+
+
+
+
+.webLogo
+{
+	float: left;
+    font-size: 18px;
+    font-family: fantasy;
+    color: #b9b9b9;
+    cursor: pointer;
+    margin: 0px 5px 0px 2%;
+    text-align: center;
+    padding: 6px;
+}
+
+.searchInput
+{
+	width:60%;
+	float:left;
+}
+
+#searchBox
+{
+	height: 34px;
+    width: 70%;
+    border: 2px solid #ceb8b8;
+    border-right: none;
+    font-size: 15px;
+    margin-left: 7%;
+    background: #f1f9fb;
+}
+.SearchIcon{
+	color: #fff;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	background: #e7f0f3;
+	float: left;
+	padding: 11px 8px;
+	font-size: 12px;
+	cursor: pointer;
+	color: #846262;
+	display:none;
+	margin-left:8%;
+	
+}
+#submitButton
+{
+	        width: 70px;
+    cursor: pointer;
+        padding: 8.5px 10px 6.5px 10px;
+    border: 2px solid #ceb8b8;
+    border-left: navajowhite;
+    background: #e7f0f3;
+}
+
+ul li {
+	font-size:15px;
+	border-bottom:1px solid #fff;
+}
+
+.logInSection
+{
+	    float: left;
+    position: absolute;
+    top: 0px;
+    right: 45px;
+	
+}
+.profile
+{
+	position: relative;
+}
+.profileImg img
+{
+	width: 40px;
+    height: 40px;
+    border-radius: 31px;
+    border: 1px solid #201e1b
+}
+
+.moreIcon
+{
+	position: absolute;
+    top: 16px;
+    left: 45px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.moreDetcls
+{
+    padding: 5px;
+    border: 1px solid #e2c5ca;
+    position: absolute;
+    left: -60px;
+    width: 140px;
+    top: 50;
+	display:none;
+	z-index:1;
+}
+.moreDetcls ul
+{
+	    
+}
+.moreDetcls li
+{
+	list-style: none;
+	padding: 8px 20px 8px 2px;
+	background: #edebe9;
+	cursor: pointer;
+}
+.moreDetcls li a
+{
+	    text-decoration: none;
+    font-size: 14px;
+    color: #5f5555;
+}
+
+
+#hide
+{
+	display:none;
+}
+
+
+
+/* end header */
+
+
+.SameVideos
+{
+	height: 320;
+    padding-left: 10px;
+    width:15%;
+    overflow: hidden;
+    font-size: 13px;
+    border: 1px solid #e4efef;
+    padding: 6px;
+    margin: 5px 2px;
+	position:relative;
+	float:left;
+}
+
+.hoverShadow
+{
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    background: #3e4e5238;
+    top: 6px;
+	    right: 0px;
+	transition:5s;
+    opacity: 0;
+}
+.hoverShadow:hover
+{
+	opacity: 1;
+	
+}
+.hoverShadow:hover .watchControl
+{
+	transform: rotate(720deg);
+	transition:4s;
+}
+.watchControl
+{
+    text-align: center;
+    display: table-cell;
+    top: 30px;
+    right: 2px;
+    position: absolute;
+    cursor: pointer;
+    border-radius: 50%;
+    color: #fff;
+    background: gray;
+    height: 21px;
+    width: 21px;
+}
+.Channelinfo
+{
+	position: relative;
+	margin: 5px 0px;
+}
+.ChannelProfilePhoto img
+{
+	width: 35px;
+    height: 35px;
+    border-radius: 31px;
+    border: 1px solid #201e1b;
+}
+.ChannelName
+{
+	    font-size: 12px;
+    position: absolute;
+    top: 12px;
+    left: 48px;
+}
+.ChannelMore
+{
+	position: absolute;
+    top: 7px;
+    right: 0px;
+    font-size: 18px;
+	
+    width: 23px;
+    height: 23px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50%;
+    padding-bottom: 0px;
+}
+
+.ChannelMoreControl
+{
+	  position: absolute;
+    top: 1px;
+    right: 25px;
+    font-size: 12px;
+    border: 1px solid #2b2a2814;
+	display:none;
+}
+.ChannelMoreControl li
+{
+	list-style: none;
+    padding: 5px 16px 5px 1px;
+    background: #e6d3d338;
+    margin: 1px;
+    font-size: 11px;
+    color: #769aa5;
+}
+
+
+.ChannelMoreControlBox
+{
+	    height: 15px;
+    width: 15px;
+    background: #f8f1ee;
+    position: absolute;
+    top: 4px;
+    right: -9px;
+    transform: rotate(40deg);
+}
+
+
+.TimeViews
+{
+	border: 1px solid #e8e8e1;
+    padding: 5px;
+    margin-bottom: 2px;
+    color: #ad9292;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1340px) {
+	.SameVideos
+	{
+	    width: 15%;
+		padding-left:9px;
+    
+	}
+
+}
+@media (max-width: 1280px) {
+	.SameVideos
+	{
+	    width: 15%;
+		padding-left:8px;
+    
+	}
+@media (max-width: 1218px) {
+	.SameVideos
+	{
+	    width: 15%;
+		padding-left:7px;
+    
+	}
+}
+@media (max-width: 1200px) {
+	.SameVideos
+	{
+	    width: 18%;
+    padding-left: 9px;
+	}
+
+}
+@media (max-width: 1070px) {
+	.SameVideos
+	{
+	    width: 18%;
+    padding-left: 8px;
+	}
+
+}
+@media (max-width: 1020px) {
+	.SameVideos
+	{
+	    width: 18%;
+    padding-left: 7px;
+	}
+
+}
+@media (max-width: 968px) {
+	.SameVideos
+	{
+	    width: 18%;
+    padding-left: 6px;
+	}
+
+
+@media (max-width: 918px){
+	.SameVideos {
+	width: 22%;
+	padding-left: 12px;
+	}
+}
+
+@media (max-width: 850px){
+	.SameVideos {
+	width: 22%;
+	padding-left: 10px;
+	}
+}
+
+
+@media (max-width: 775px){
+	.SameVideos {
+	width: 22%;
+	height:340;
+	padding-left: 9px;
+	}
+}
+@media (max-width: 720px){
+	.SameVideos {
+	width: 30%;
+	height:320px;
+	padding-left: 9px;
+	}
+}
+@media (max-width: 650px){
+	.SameVideos {
+	width: 30%;
+	padding-left: 7px;
+	}
+}
+@media (max-width: 600px){
+	#searchBox {
+		width:60%;
+	}
+	
+
+}
+@media (max-width: 535px){
+	#searchBox {
+		width:50%;
+	}
+	
+
+}
+@media (max-width: 588px){
+	.SameVideos {
+	width: 46%;
+	padding-left: 7px;
+	}
+
+}
+
+@media (max-width: 495px){
+	.SameVideos {
+	width: 46%;
+	padding-left: 5px;
+	}
+}
+@media (max-width: 485px){
+	.searchInput
+	{
+		display:none;
+	}
+	.SearchIcon
+	{
+		display:block;
+	}
+}
+@media (max-width: 445px){
+	.SameVideos {
+	width: 96%;
+	padding:5px;
+	
+	}
+.watchControl {
+    top: 15px;
+    right: 15px;
+	}
+}
+@media (max-width: 400px){
+	.SameVideos {
+	width: 95%;
+	padding:5px;
+	
+	}
+
+}
+@media (max-width: 340px){
+	.SearchIcon {
+		margin-left: 3%;
+	}
+}
+@media (max-width: 312px){
+	.SearchIcon {
+		margin-left: -3%;
+	}
+	.logInSection {
+    right: 25px;
+	}
+	.moreIcon {
+    left: 40px;
+	}
+
+
+}
+
+
+@media (max-width: 275px){
+	.logInSection {
+    right: 20px;
+	position: unset;
+	margin-left: 8px;
+	margin-top: -2px
+	}
+		.header{
+		width:275px;
+		position: fixed;
+		z-index: 1;
+	}
+	#mainContent
+	{
+		width:275px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
